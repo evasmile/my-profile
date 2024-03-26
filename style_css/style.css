@@ -61,3 +61,35 @@
 #home{
  margin-top: 30pt;
 }
+
+.computerSkill{
+    display:flex;
+    flex-direction:row;
+  
+}
+
+.skillImage{
+
+    border-radius: 40%;
+    border-color: black;
+    margin: 10px;
+    height: 30%;
+    width: 50%;
+}
+
+.skillDiv{
+    background-color: rgb(228, 225, 225);
+    border-radius: 5%;
+    margin: 15px;
+    height: 180pt;
+    padding: 10px;
+}
+
+.myExp{
+    border-radius: 10%;
+    border-color:indianred ;
+    border-style: double;
+    text-align: center;
+    margin: 20px;
+    padding: 8px;
+}
