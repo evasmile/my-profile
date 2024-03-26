@@ -9,9 +9,7 @@
     
 }
 
-body{
-    margin-top: 10%;
-}
+
 
 .divNoColour{
 
@@ -24,6 +22,7 @@ body{
 
 .stand{
     position: fixed;
+    top: 0;
     width: 100%;
     margin-top: 0;
 }
@@ -56,4 +55,9 @@ body{
 
 .divC{
     position: absolute;
+}
+
+
+#home{
+ margin-top: 30pt;
 }
