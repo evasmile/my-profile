@@ -5,7 +5,7 @@
     text-align: center;
     width: 100%;
     margin: 10px;
-    padding: 35px;
+    padding: 25px;
     padding-top: 56px;
     
 }
@@ -46,13 +46,14 @@
 
 .contactImg{
 
-    height : 10%;
-    width : 10%;
-    border-radius: 50%;
+    height : 5%;
+    width : 5%;
+    border-radius: 60%;
 }
 
 .divContactElement{
-    position: absolute;
+ 
+    margin: 20px;
 }
 
 .divC{
@@ -67,6 +68,8 @@
 .computerSkill{
     display:flex;
     justify-content:center;
+    align-items: center;
+
  
   
 }
@@ -79,23 +82,50 @@
      
       
     }
+
+   
 }
 
 .skillImage{
 
-    border-radius: 40%;
+    border-radius: 10%;
     border-color: black;
     margin: 10px;
-    height: 30%;
-    width: 50%;
+    height: 40%;
+    width: 40%;
 }
 
 .skillDiv{
     background-color: rgb(228, 225, 225);
     border-radius: 5%;
-    margin: 15px;
-    height: 180pt;
-    padding: 10px;
+   
+    margin: 8px;
+    width: 200px;
+    height: 280px;
+    padding: 8px;
+    flex-basis: 200px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.skillDiv1{
+    background-color: rgb(228, 225, 225);
+    border-radius: 5%;
+   
+    margin: 8px;
+  
+    height: 280px;
+    padding: 8px;
+
+}
+
+.TechnicalSkill{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 1fr 1fr;
+    padding:  20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .myExp{
