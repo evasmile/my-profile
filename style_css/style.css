@@ -8,6 +8,10 @@
 
 }
 
+p{
+    font-size: 100%;
+}
+
 .divNoColour {
 
     text-align: center;
@@ -65,9 +69,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-
-
 }
 
 
@@ -84,10 +85,9 @@
 .skillDiv {
     background-color: rgb(228, 225, 225);
     border-radius: 5%;
-
     margin: 8px;
-
-    height: fit-content;
+  
+    min-height: 50px;
     padding: 8px;
 
 }
@@ -95,11 +95,10 @@
 .skillDiv1 {
     background-color: rgb(228, 225, 225);
     border-radius: 5%;
-
     margin: 8px;
    
-    height:fit-content;
-    padding: 8px;
+    max-height: 280px;
+    padding: 4px;
 
 }
 
@@ -116,6 +115,15 @@
     padding: 20px;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+
+    .TechnicalSkill{
+        grid-template-columns: 25% 25% ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+ 
 }
 
 .myExp {
