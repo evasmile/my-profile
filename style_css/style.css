@@ -1,92 +1,78 @@
-
-
-.divColour{
+.divColour {
     background-color: indianred;
     text-align: center;
     width: 100%;
     margin: 10px;
     padding: 25px;
     padding-top: 56px;
-    
+
 }
 
-
-
-.divNoColour{
+.divNoColour {
 
     text-align: center;
     width: 100%;
     margin: 10px;
     padding: 35px;
     padding-top: 56px;
-    
+
 }
 
-.stand{
+.stand {
     position: fixed;
     top: 0;
     width: 100%;
     margin-top: 0;
 }
 
-.image{
+.image {
 
     height: 10%;
     width: 20%;
     border-radius: 50%;
 }
 
-.list{
+.list {
     list-style-type: none;
 }
 
-.textColor{
+.textColor {
     color: antiquewhite;
 }
 
-.contactImg{
+.contactImg {
 
-    height : 5%;
-    width : 5%;
+    height: 5%;
+    width: 5%;
     border-radius: 60%;
 }
 
-.divContactElement{
- 
+.divContactElement {
+
     margin: 20px;
 }
 
-.divC{
+.divC {
     position: absolute;
 }
 
 
-#home{
- margin-top: 30pt;
+#home {
+    margin-top: 30pt;
 }
 
-.computerSkill{
-    display:flex;
-    justify-content:center;
+.computerSkill {
+    display: flex;
+    justify-content: center;
     align-items: center;
 
- 
-  
+
+
 }
 
-@media(max-width:800px){
-    .computerSkill{
-        display:flex;
-        flex-direction: column;
-        justify-content:center;
-     
-      
-    }
 
-   
-}
 
-.skillImage{
+.skillImage {
 
     border-radius: 10%;
     border-color: black;
@@ -95,42 +81,46 @@
     width: 40%;
 }
 
-.skillDiv{
+.skillDiv {
     background-color: rgb(228, 225, 225);
     border-radius: 5%;
-   
-    margin: 8px;
-    width: 200px;
-    height: 280px;
-    padding: 8px;
-    flex-basis: 200px;
-    flex-shrink: 0;
-    flex-grow: 0;
-}
 
-.skillDiv1{
-    background-color: rgb(228, 225, 225);
-    border-radius: 5%;
-   
     margin: 8px;
-  
-    height: 280px;
+
+    height: fit-content;
     padding: 8px;
 
 }
 
-.TechnicalSkill{
+.skillDiv1 {
+    background-color: rgb(228, 225, 225);
+    border-radius: 5%;
+
+    margin: 8px;
+   
+    height:fit-content;
+    padding: 8px;
+
+}
+
+.fontSkillCard{
+    font-size: 100%;
+    font-weight: bolder;
+    font-style:oblique;
+}
+
+.TechnicalSkill {
     display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 1fr 1fr;
-    padding:  20px;
+    padding: 20px;
     align-items: center;
     justify-content: center;
 }
 
-.myExp{
+.myExp {
     border-radius: 10%;
-    border-color:indianred ;
+    border-color: indianred;
     border-style: double;
     text-align: center;
     height: 390px;
