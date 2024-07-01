@@ -184,15 +184,44 @@ margin-bottom: 1%;
 
 /*Skills*/
 
-.computerSkill {
+
+
+.basicComputerSkill{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    gap:1%;
+}
+.gridBox{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    width: 20%;
     
+
 }
 
+.box{
+    background-color:indianred ;
+    width: 100%;;
+    height: 100%;
 
+}
 
+.box1{
+grid-area: 1/2;
+}
+
+.box2{
+grid-area: 2/1;
+}
+.contentBox{
+    background-color: rgb(249 241 239);
+    grid-column: 1/3;
+    grid-row: 1/3;
+    margin: 1.5%;
+    text-align: center;
+    z-index: 2;
+
+}
 
 
 .skillImage {
