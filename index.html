@@ -27,7 +27,7 @@
             <a class="nav-link active" aria-current="page" href="#home">Home</a>
             <a class="nav-link" href="#about">About</a>
             <a class="nav-link" href="#skills">Skills</a>
-            <a class="nav-link" href="#projects">experience</a>
+            <a class="nav-link" href="#projects">Experience</a>
             <a class="nav-link" href="#contact">Contact</a>
           </div>
         </div>
@@ -70,7 +70,7 @@
      
     </div>
     <div class="aboutBlock" >
-      <h2>About Me</h2>
+      <h2 class="MinHeadingTextColor">About Me</h2>
       <hr>
       <p>I’m a young man of 29 years old who is passionate about software development, I like learning new trends in
         software technology.
@@ -79,7 +79,7 @@
         experience.
       </p>
 
-      <h3>My Interests</h3>
+      <h3 class="MinHeadingTextColor">My Interests</h3>
       <ul class="list">
         <li>Sports</li>
         <li>Travelling</li>
@@ -112,7 +112,7 @@
 
   </div>
  
-  <div class="skills">
+  <div id="skills">
     <h2 class="MinHeadingTextColor">Skills</h2>
     <hr>
     <h5 class="MinHeadingTextColor">Computer Skills</h5>
@@ -221,21 +221,21 @@
    
 
 
-  <div id="projects" class="divNoColour">
+  <div id="experience" >
     <h2 class="MinHeadingTextColor">Working experience </h2>
     <hr>
-    <div class="computerSkill" style="text-align: center;">
+    <div class="experienceContainer">
 
-      <div class="myExp">
+      <div class="myExpBox">
         <div>
-          <h3>Transnet Port Terminal</h3>
-          <h4>Industrial Engineer Trainee</h4>
+          <h3 class="fontSkillCard">Transnet Port Terminal</h3>
+          <h4 class="fontSkillCard">Industrial Engineer Trainee</h4>
           <hr>
           <div>
-            <h4>Duration : 1 year</h4>
+            <h4 class="fontSkillCard">Duration : 1 year</h4>
             <hr>
             <div>
-              <h4>Duties</h4>
+              <h4 class="fontSkillCard">Duties</h4>
               <ul style="list-style: none;">
                 <li>Design Operation process flows.</li>
                 <li>Identify and remove bottleneck.</li>
@@ -247,16 +247,16 @@
         </div>
 
       </div>
-      <div class="myExp">
+      <div class="myExpBox">
         <div>
-          <h3>Transnet Port Terminal</h3>
-          <h4>Industrial Engineer Graduate</h4>
+          <h3 class="fontSkillCard">Transnet Port Terminal</h3>
+          <h4 class="fontSkillCard">Industrial Engineer Graduate</h4>
           <hr>
           <div>
-            <h4>Duration : 2 year</h4>
+            <h4 class="fontSkillCard">Duration : 2 year</h4>
             <hr>
             <div>
-              <h4>Duties</h4>
+              <h4 class="fontSkillCard">Duties</h4>
               <ul style="list-style: none;">
                 <li>Design Operation process flows.</li>
                 <li>Cost Management.</li>
@@ -279,17 +279,24 @@
 
   <div id="contact" class="divColour divC">
    
-  
+    <div class="contactImageContainer">
     <div class="divContactElement">
-      <a href="https://web.facebook.com/mathonsi.hlawutelo/" target="_blank" rel="noopener noreferrer"><img
-          class="contactImg" src="./res/download.jpg" alt="facebook"> </a>
+      <a href="https://web.facebook.com/mathonsi.hlawutelo/" target="_blank" rel="noopener noreferrer">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" class="sol-illustration"><g id="logo.facebook"><g id="logo-facebook"><path id="Vector" d="M22.8585 1.0061L19.1552 1C14.9946 1 12.3059 3.83312 12.3059 8.21814V11.5462H8.58231C8.26056 11.5462 8 11.8141 8 12.1446V16.9665C8 17.297 8.26085 17.5646 8.58231 17.5646H12.3059V29.7319C12.3059 30.0623 12.5664 30.33 12.8882 30.33H17.7464C18.0681 30.33 18.3286 30.062 18.3286 29.7319V17.5646H22.6823C23.0042 17.5646 23.2647 17.297 23.2647 16.9665L23.2665 12.1446C23.2665 11.9859 23.205 11.8339 23.096 11.7216C22.9869 11.6094 22.8383 11.5462 22.6838 11.5462H18.3286V8.72496C18.3286 7.36897 18.6433 6.6806 20.3632 6.6806L22.8579 6.67968C23.1794 6.67968 23.44 6.41178 23.44 6.08162V1.60416C23.44 1.27431 23.1797 1.00671 22.8585 1.0061Z" fill="#4267B2"></path></g></g></svg>
+   
+      </a>
     </div>
     <div class="divContactElement">
-      <a href="https://www.linkedin.com/in/surprise-hlawutelo-b64963186/" target="_blank" rel="noopener noreferrer"><img
-          class="contactImg" src="./res/download.png" alt="linkedIn"></a>
+      <a href="https://www.linkedin.com/in/surprise-hlawutelo-b64963186/" target="_blank" rel="noopener noreferrer">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" class="sol-illustration"><g id="logo.linkedin"><g id="logo-linkedin"><path id="Vector" d="M29.3264 29.3332V29.332H29.3331V19.552C29.3331 14.7676 28.3031 11.082 22.7098 11.082C20.0209 11.082 18.2164 12.5576 17.4798 13.9565H17.402V11.5287H12.0986V29.332H17.6209V20.5165C17.6209 18.1954 18.0609 15.9509 20.9353 15.9509C23.7675 15.9509 23.8098 18.5998 23.8098 20.6654V29.3332H29.3264Z" fill="#0077B5"></path><path id="Vector_2" d="M3.10645 11.5312H8.63533V29.3346H3.10645V11.5312Z" fill="#0077B5"></path><path id="Vector_3" d="M5.86921 2.66797C4.10144 2.66797 2.66699 4.10241 2.66699 5.87019C2.66699 7.63797 4.10144 9.10241 5.86921 9.10241C7.63699 9.10241 9.07144 7.63797 9.07144 5.87019C9.07032 4.10241 7.63588 2.66797 5.86921 2.66797Z" fill="#0077B5"></path></g></g></svg>
+      </a>
     </div>
+  </div>
 
-
+    <div id="copyRight">
+      <h6>Made with love by Mathonsi Surprise |  © 2024 </h6>
+    </div>
+   
   </div>
   <script src="./src/index.js"></script>
 </body>

@@ -34,6 +34,11 @@ $(function(){
    
 })
 
+$(function(){
+    const year = new Date().getFullYear();
+    $("#copyRight").text(`Made With Love By Surprise Mathonsi @ ${year}`)
+})
+
 
 
 

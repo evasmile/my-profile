@@ -189,19 +189,22 @@ margin-bottom: 1%;
 /*Skills*/
 
 
-.skills{
+#skills{
     text-align:  center;
 }
 .basicComputerSkill{
     display: flex;
     gap:1%;
     justify-content:  center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .gridBox{
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50% 50%;
     width: 20%;
+    box-shadow: 0 10px 15px rgba(7, 7, 7, 0.1);
     
 
 }
@@ -275,6 +278,37 @@ grid-area: 2/1;
     align-items: center;
     justify-content: center;
 }
+/*Expriences*/
+
+#experience{
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+  
+}
+.experienceContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.myExpBox {
+    border-radius: 10%;
+    border-color: indianred;
+    border-style: double;
+    text-align: center;
+    margin: 5%;
+    padding: 5%;
+    box-shadow: 0 10px 15px rgba(7, 7, 7, 0.1);
+    background-color: rgba(221, 128, 116, 0.712);
+}
+
+/*footer*/
+
+.contactImageContainer{
+    display: flex;
+    justify-content: center;
+}
 
 @media screen and (max-width: 600px) {
 
@@ -306,12 +340,3 @@ grid-area: 2/1;
  
 }
 
-.myExp {
-    border-radius: 10%;
-    border-color: indianred;
-    border-style: double;
-    text-align: center;
-    height: 100%;
-    margin: 20px;
-    padding: 10px;
-}
