@@ -234,6 +234,26 @@ grid-area: 2/1;
 
 }
 
+.TechnicalSkillGrid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 5px;
+    grid-template-rows: 1fr 1fr;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.gridBoxTechnical{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    width: 100%;
+    box-shadow: 0 10px 15px rgba(7, 7, 7, 0.1);
+    
+
+}
+
+
 
 .skillImage {
 
@@ -269,15 +289,9 @@ grid-area: 2/1;
     font-style:oblique;
 }
 
-.TechnicalSkill {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    gap: 5px;
-    grid-template-rows: 1fr 1fr;
-    padding: 20px;
-    align-items: center;
-    justify-content: center;
-}
+
+
+
 /*Expriences*/
 
 #experience{
@@ -308,6 +322,9 @@ grid-area: 2/1;
 .contactImageContainer{
     display: flex;
     justify-content: center;
+}
+#contact{
+  padding: 5%;
 }
 
 @media screen and (max-width: 600px) {
