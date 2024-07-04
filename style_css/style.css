@@ -2,14 +2,7 @@ body{
     margin: 0;
 }
 
-.divColour {
-    background-color: indianred;
-    text-align: center;
-    width: 100%;
-   
-    padding-top: 56px;
 
-}
 
 .specialFont{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -19,17 +12,13 @@ p{
     font-size: 100%;
 }
 
+
+
+
 hr{
   margin: 0;
 }
 
-.divNoColour {
-
-    text-align: center;
-    width: 100%;
-    padding-top: 56px;
-
-}
 
 .stand {
     position: fixed;
@@ -51,6 +40,13 @@ hr{
 
 .HomeheadingtextColor {
     color: antiquewhite;
+
+}
+@media screen and (max-width: 480px) {
+    .HomeheadingtextColor{
+        font-size: 70%;
+    }
+ 
 }
 .MinHeadingTextColor{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -82,6 +78,16 @@ hr{
     grid-template-rows: 2fr 2fr 1fr;
 }
 
+@media screen and (max-width: 480px) {
+  #home{
+   
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 35% 35% 30%;
+   
+  }
+ 
+}
+
 .portfolioTitleBox{
     grid-row: 1;
     grid-column: 3 / 5;
@@ -95,7 +101,12 @@ hr{
 .portfolioTitle{
     font-size: 500%;
 }
-  
+@media screen and (max-width: 480px) {
+  .portfolioTitle{
+    font-size: 100%;
+  }
+ 
+} 
 
 .summary{
     grid-area: 2/4;
@@ -110,9 +121,23 @@ hr{
  
 }
 
+@media screen and (max-width: 480px) {
+    .contactBlock{
+     padding-top: 0;
+    }
+  
+ }
+
 .fontContact{
     font-size: 90%;
     font-weight: 100;
+}
+
+@media screen and (max-width: 480px) {
+   .fontContact{
+    font-size: 60%;
+   }
+ 
 }
 
 .cellphone{
@@ -133,6 +158,14 @@ hr{
     grid-column: 1/4;
     height: 100%;
     width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+   .imageSummary{
+    height: 100%;
+    width: 100%;
+   }
+ 
 }
 .iconSummary{
     height: 20%;
@@ -191,6 +224,8 @@ margin-bottom: 1%;
 
 #skills{
     text-align:  center;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 .basicComputerSkill{
     display: flex;
@@ -237,7 +272,7 @@ grid-area: 2/1;
 .TechnicalSkillGrid {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    gap: 5px;
+    gap: 1%;
     grid-template-rows: 1fr 1fr;
     padding: 20px;
     align-items: center;
@@ -249,6 +284,7 @@ grid-area: 2/1;
     grid-template-rows: 50% 50%;
     width: 100%;
     box-shadow: 0 10px 15px rgba(7, 7, 7, 0.1);
+    
     
 
 }
@@ -325,35 +361,13 @@ grid-area: 2/1;
 }
 #contact{
   padding: 5%;
+    background-color: indianred;
+    text-align: center;
+    width: 100%;
+    padding-top: 56px;
+
 }
 
-@media screen and (max-width: 600px) {
 
-    .TechnicalSkill{
-        grid-template-columns: 40% 40% ;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-    }
 
-    .about{
-        flex-direction: column;
-    }
-
-    p{
-        font-size: 70%;
-    }
-
-    .fontSkillCard{
-        font-size: 80%;
-    }
-    .skillDiv1{
-        height: 90%;
-        margin: 4px;
-        padding: 2px;
-    }
-    hr{
-        margin: 0%;
-    }
-    
- 
-}
 
