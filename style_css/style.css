@@ -45,9 +45,11 @@ hr{
 @media screen and (max-width: 480px) {
     .HomeheadingtextColor{
         font-size: 70%;
+        padding-top: 10px;
     }
  
 }
+
 .MinHeadingTextColor{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
@@ -101,12 +103,20 @@ hr{
 .portfolioTitle{
     font-size: 500%;
 }
-@media screen and (max-width: 480px) {
-  .portfolioTitle{
-    font-size: 100%;
-  }
+
+@media screen and (max-width: 750px) {
+    .portfolioTitle{
+        font-size: 300%;
+        padding-top: 10px;
+    }
  
-} 
+}
+@media screen and (max-width: 480px) {
+    .portfolioTitle{
+      font-size: 100%;
+    }
+   
+  } 
 
 .summary{
     grid-area: 2/4;
@@ -181,14 +191,19 @@ grid-template-rows: 1fr 1fr  2% ;
 grid-template-columns: 2% 1fr 1fr 1fr ;
 height: fit-content;
 width: 100%;
-
 padding: 5% ;
 margin-top: 1%;
 margin-bottom: 1%;
-
-
-
 }
+@media screen and (max-width: 560px) {
+   .list{
+    font-size: 70%;
+   }
+   p{
+    font-size: 70%;
+   }
+  
+ }
 
 .backgroundBlock{
     width: 100%;
@@ -325,6 +340,20 @@ grid-area: 2/1;
     font-style:oblique;
 }
 
+@media screen and (max-width: 580px) {
+    .fontSkillCard{
+        font-size: 70%;
+    }
+  
+ }
+
+ @media screen and (max-width: 580px) {
+    .hrMargin{
+     margin: 0;
+    }
+  
+ }
+
 
 
 
@@ -352,6 +381,13 @@ grid-area: 2/1;
     box-shadow: 0 10px 15px rgba(7, 7, 7, 0.1);
     background-color: rgba(221, 128, 116, 0.712);
 }
+@media screen and (max-width: 580px) {
+   .myExpBox{
+    padding: 0;
+   }
+  
+ }
+
 
 /*footer*/
 
@@ -366,6 +402,9 @@ grid-area: 2/1;
     width: 100%;
     padding-top: 56px;
 
+}
+#copyRight{
+    font-size: 70%;
 }
 
 

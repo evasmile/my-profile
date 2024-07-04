@@ -43,7 +43,7 @@ const flexContainer = $(".basicComputerSkill")
       <div class="box box2"></div>
       <div class="contentBox">
         <img class="skillImage" src="./res/${BasicComputerSkill[skill].image}" alt="powerpoint">
-        <hr>
+        <hr class="hrMargin">
         <h3 class="fontSkillCard">${BasicComputerSkill[skill].name}</h3>
         <p>level : ${BasicComputerSkill[skill].level}</p>
       </div>
@@ -72,7 +72,7 @@ $(function(){
       <div class="box box2"></div>
       <div class="contentBox">
         <img class="skillImage" src="./res/${TechnicalComputerSkill[count].image}" alt="powerpoint">
-        <hr>
+        <hr class="hrMargin">
         <h3 class="fontSkillCard"> ${TechnicalComputerSkill[count].name} </h3>
         <p>level : ${TechnicalComputerSkill[count].level}</p>
       </div>
