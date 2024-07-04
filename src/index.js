@@ -11,7 +11,15 @@ class Skills {
     }
 }
 
+const BasicComputerSkill=[]
 const TechnicalComputerSkill=[]
+
+BasicComputerSkill.push(
+  new Skills("Word","Good","download (1).png"),
+  new Skills("Visio","Fair","download (4).png"),
+  new Skills("PowerPoint","Good","download (2).png"),
+  new Skills("Excel","Good","download (3).png")
+)
 
 TechnicalComputerSkill.push(  new Skills("javaScript","Good","download (5).png"),
 new Skills("Android Studio","Good","download (6).png"),
@@ -22,6 +30,30 @@ new Skills("CSS","Good","download (10).png"),
 new Skills("GitHub","Good","download (2).jpg"),
 new Skills("Git","Good","download (1).jpg"))
   
+
+$(function(){
+
+const flexContainer = $(".basicComputerSkill")
+
+  for( let skill in BasicComputerSkill){
+
+    let card = `
+    <div class="gridBox">
+      <div class="box box1"></div>
+      <div class="box box2"></div>
+      <div class="contentBox">
+        <img class="skillImage" src="./res/${BasicComputerSkill[skill].image}" alt="powerpoint">
+        <hr>
+        <h3 class="fontSkillCard">${BasicComputerSkill[skill].name}</h3>
+        <p>level : ${BasicComputerSkill[skill].level}</p>
+      </div>
+    </div>
+    `;
+
+    flexContainer.append(card);
+  }
+
+})
 
 
 $(function(){
