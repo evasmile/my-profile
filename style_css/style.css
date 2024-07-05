@@ -1,20 +1,12 @@
 body{
     margin: 0;
 }
-
-
-
 .specialFont{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
 p{
     font-size: 100%;
 }
-
-
-
-
 hr{
   margin: 0;
 }
@@ -39,29 +31,6 @@ hr{
     list-style-type: none;
 }
 
-.HomeheadingtextColor {
-    color: antiquewhite;
-
-}
-@media screen and (max-width: 480px) {
-    .HomeheadingtextColor{
-        font-size: 70%;
-        padding-top: 10px;
-    }
- 
-}
-
-.MinHeadingTextColor{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
-}
-
-.contactImg {
-
-    height: 5%;
-    width: 5%;
-    border-radius: 60%;
-}
 
 
 
@@ -89,6 +58,30 @@ hr{
    
   }
  
+}
+
+.HomeheadingtextColor {
+    color: antiquewhite;
+
+}
+@media screen and (max-width: 480px) {
+    .HomeheadingtextColor{
+        font-size: 70%;
+        padding-top: 10px;
+    }
+ 
+}
+
+.MinHeadingTextColor{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.contactImg {
+
+    height: 5%;
+    width: 5%;
+    border-radius: 60%;
 }
 
 .portfolioTitleBox{
