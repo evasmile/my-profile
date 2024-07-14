@@ -389,6 +389,11 @@ grid-area: 2/1;
     display: flex;
     justify-content: center;
 }
+.emailContactPic{
+    width: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
 #contact{
   padding: 5%;
     background-color: indianred;
