@@ -224,6 +224,7 @@ margin-bottom: 1%;
 }
 
 .cvImage{
+    border-radius: 20%;
     height: 80%;
     width: 90%;
 }
@@ -238,6 +239,7 @@ margin-bottom: 1%;
 }
 .basicComputerSkill{
     display: flex;
+    flex-wrap: wrap;
     gap:1%;
     justify-content:  center;
     margin-top: 5%;
@@ -280,8 +282,8 @@ grid-area: 2/1;
 
 .TechnicalSkillGrid {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    gap: 1%;
+    grid-template-columns: repeat(auto-fill, 186px);
+    gap: 3%;
     grid-template-rows: 1fr 1fr;
     padding: 20px;
     align-items: center;
@@ -292,6 +294,7 @@ grid-area: 2/1;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50% 50%;
     width: 100%;
+    height : 100%;
     box-shadow: 0 10px 15px rgba(7, 7, 7, 0.1);
     
     

@@ -56,7 +56,7 @@ const flexContainer = $(".basicComputerSkill")
 
 $(function(){
     const rows = 2;
-    const columns = 4;
+    const columns = 3;
 
     // Get the grid container element
     const gridContainer = $(".TechnicalSkillGrid");
