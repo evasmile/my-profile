@@ -47,10 +47,10 @@ hr{
     margin-top: 30pt;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 2fr 2fr 1fr;
+     
 }
 
-@media screen and (max-width: 480px) {
+/*@media screen and (max-width: 480px) {
   #home{
    
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -58,19 +58,20 @@ hr{
    
   }
  
-}
+}*/
 
 .HomeheadingtextColor {
     color: antiquewhite;
+    font-size:2vw;
 
 }
-@media screen and (max-width: 480px) {
+/*@media screen and (max-width: 480px) {
     .HomeheadingtextColor{
         font-size: 70%;
         padding-top: 10px;
     }
  
-}
+}*/
 
 .MinHeadingTextColor{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -95,10 +96,10 @@ hr{
 }
 
 .portfolioTitle{
-    font-size: 500%;
+    font-size: 5vw;
 }
 
-@media screen and (max-width: 750px) {
+/*@media screen and (max-width: 750px) {
     .portfolioTitle{
         font-size: 300%;
         padding-top: 10px;
@@ -110,7 +111,7 @@ hr{
       font-size: 100%;
     }
    
-  } 
+  } */
 
 .summary{
     grid-area: 2/4;
@@ -121,28 +122,34 @@ hr{
     margin: 5px;
     text-align: center;
    justify-items: center;
-   padding-top: 20px;
+   padding-top: 10%;
  
 }
 
-@media screen and (max-width: 480px) {
+/*@media screen and (max-width: 480px) {
     .contactBlock{
      padding-top: 0;
     }
   
- }
+ }*/
 
 .fontContact{
-    font-size: 90%;
+    font-size: 2vw;
     font-weight: 100;
 }
 
-@media screen and (max-width: 480px) {
+.devImgHome{
+    height: 30%;
+    width: 30%;
+    object-fit: contain;
+}
+
+/*@media screen and (max-width: 480px) {
    .fontContact{
     font-size: 60%;
    }
  
-}
+} */
 
 .cellphone{
  
@@ -160,17 +167,18 @@ hr{
 .imageSummary{
     grid-row: 1/4;
     grid-column: 1/4;
+    object-fit: cover;
     height: 100%;
     width: 100%;
 }
 
-@media screen and (max-width: 480px) {
+/*@media screen and (max-width: 480px) {
    .imageSummary{
     height: 100%;
     width: 100%;
    }
  
-}
+} */
 .iconSummary{
     height: 20%;
     width: 10%;
